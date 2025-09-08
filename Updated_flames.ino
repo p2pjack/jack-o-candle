@@ -58,7 +58,7 @@ void setup() {
   strip.begin();
   strip.clear();
   strip.show();
-  randomSeed(analogRead(A4));   // any floating analog pin works
+  randomSeed(analogRead(A2));   // any floating analog pin works -- A2 nRF52840 Ali express !!!
 
   InitFlames();
 }
