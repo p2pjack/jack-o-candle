@@ -65,8 +65,8 @@ void setup() {
   strip.clear();
   strip.show();
 
-  // Seed RNG (A4 is fine if floating; on some boards it’s SDA, still OK)
-  randomSeed(analogRead(A4));
+  // Seed RNG (A4 is fine if floating; on some boards it’s SDA, still OK) -- A2 nRF52840 Ali express !!!
+  randomSeed(analogRead(A2));
 
   InitFlames();
 }
